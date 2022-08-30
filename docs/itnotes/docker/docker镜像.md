@@ -1,12 +1,10 @@
 ---
-title: docker镜像
+title: docker 镜像
 ---
 
 
-
-官方开源镜像仓库网站：[hub.docker.com](hub.docker.com)
-
 #### 查看已拉取的docker镜像
+
 ```shell
 $ docker images
 ```
@@ -18,7 +16,7 @@ $ docker images
 - SIZE：镜像大小
 > docker images命令显示的镜像大小信息只是逻辑上的大小信息，因为一个镜像是由多个镜像层（layer）组成的，而相同的镜像层本地只会存储一份，所以，真实情况下，占用的物理存储空间大小，可能会小于逻辑大小。
 
-tips：基于alpine的轻量级镜像的体积都比较小，很多主流服务都有alpine版本，可以在hub.docker.com查找
+tips：基于alpine的轻量级镜像的体积都比较小，很多主流服务都有alpine版本，可以在查找 [Hub docker](https://hub.docker.com)
 
 #### 删除docker镜像
 ```shell
@@ -26,7 +24,7 @@ $ docker rmi <IMAGE ID> <IMAGE ID> ......
 # 或<REPOSITORY:TAG>
 ```
 #### 查找镜像
-我们可以从 Docker Hub 网站来搜索镜像，Docker Hub 网址为： [**https://hub.docker.com/**](https://hub.docker.com/)
+我们可以从 Docker Hub 网站来搜索镜像，Docker Hub 网址为： [https://hub.docker.com/](https://hub.docker.com/)
 ```shell
 $ docker search 镜像名
 ```
@@ -51,3 +49,4 @@ $ docker tag 镜像ID REPOSITORY:TAG
 docker inspect 命令，可以获取镜像的详细信息，其中，包括创建者，各层的数字摘要等。
 
 docker history 命令，可以列出镜像各个层（layer）的创建信息。
+
