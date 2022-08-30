@@ -1,0 +1,10 @@
+position: 1 # 支持浮点数序号
+label: 'Linux'
+collapsible: true # 让类别可折叠
+collapsed: false # true: 默认折叠
+link:
+  type: generated-index
+  title: 操作系统相关
+  description: 一些linux笔记，以及与之相关的东西
+#customProps:
+#  description: 这个描述可以用在 swizzle 的 DocCard 里

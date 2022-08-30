@@ -1,0 +1,10 @@
+position: 2 # 支持浮点数序号
+label: '编程语言'
+collapsible: true # 让类别可折叠
+collapsed: false # true: 默认折叠
+link:
+  type: generated-index
+  title: 编程语言
+  description: " "
+#customProps:
+#  description: 这个描述可以用在 swizzle 的 DocCard 里
