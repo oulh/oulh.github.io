@@ -77,15 +77,15 @@ const config = {
             type: 'doc',
             docId: 'itnotes/tree',
             position: 'left',
-            label: 'Notes',
+            label: '笔记',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
 		  
 		  {
             type: 'doc',
             docId: 'others/baduanjin',
             position: 'right',
-            label: 'Other',
+            label: '其他',
           },
 		  // 下拉菜单
           {
