@@ -1,10 +1,15 @@
 ---
-title: jenkins+docker+github自动化构建和部署vue站点
+slug: jenkins-docker-github-auto自动构建部署
+title: jenkins+docker+github自动构建和部署站点
+authors: Leo
+tags: [jenkins, docker]
 ---
 
 
 
-# jenkins+docker+github自动化构建和部署vue站点
+关联git项目，只要push就自动构建，部署站点，像腾讯云托管、Clouflare、Netlify、Vercel 等云服务商都有这样的服务。来看看在服务器上怎么实现这个过程。
+
+<!--truncate-->
 
 > 本文操作环境：
 >
