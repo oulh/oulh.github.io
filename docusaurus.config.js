@@ -48,6 +48,7 @@ const config = {
           editUrl:
             'https://github.com/oulh/oulh.github.io/tree/main/',
         },
+		
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -91,15 +92,15 @@ const config = {
           {
             type: 'dropdown',
             position: 'right',
-            label: '快速导航',
+            label: '网址导航',
 			items: [
 			  {
 				to: 'studynav',
-                label: '文档书签',			
+                label: '学习相关',			
 			  },
 			  {
 				to: 'resourcenav',
-                label: '资源书签',			
+                label: '实用资源',			
 			  },
 			]
           },
@@ -170,9 +171,11 @@ const config = {
         ],
 		*/
         copyright: `Copyright © ${new Date().getFullYear()} 
-		&emsp;Build with <a href="https://docusaurus.io/zh-CN" target="_blank" >Docusaurus</a>
-		Deploys by <a href="https://www.netlify.com" target="_blank" >Netlify</a>
-		<br>  Come on ! You can do it.
+		&ensp;本站由 <a href="https://docusaurus.io/zh-CN" target="_blank" >Docusaurus</a> 构建
+		&ensp;部署于 <a href="https://www.netlify.com" target="_blank" >Netlify</a> 
+		和 <a href="https://vercel.com/" target="_blank" >Vercel</a>
+
+		<br><small>纸上得来终觉浅，绝知此事要躬行。</small>
 		`,
       },
       prism: {
