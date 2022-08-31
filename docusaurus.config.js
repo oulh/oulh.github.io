@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'OU.LH',
   tagline: '长风破浪会有时，直挂云帆济沧海。',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://www.oulh.ml',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
