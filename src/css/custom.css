@@ -62,18 +62,22 @@
 .hero--primary .container .hero__subtitle {
 	 padding: 10px;
  }
+ 
+  [data-theme='light'] .hero--primary .container img {
+	content: url('@site/static/img/leaves-g75b01164b_6401.jpg');
+	border-Radius: 50%;
+	width: 260px;
+}
  [data-theme='dark'] .hero--primary .container img {
-	content: url('@site/static/img/lamp.svg');
+	content: url('@site/static/img/favicon4.png');
+    width: 300px;
 	position: relative;
-	left: -35px
-	/* width: 280;
-	height: 100%;
-	max-width: 100%; */
-
+	left: 30px;
+	padding-bottom: 15px
 }
 
 .navbar__logo img {
-	content: url('https://qiniu.oulh.ml/siteimage/a042e4e573c02fb51bd6df46edfb79ce.png');
+	content: url('@site/static/img/head-xiamu-100.png');
 	height: 100%;
 	max-width: 100%;
 	border-Radius: 50%;

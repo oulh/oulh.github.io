@@ -1,9 +1,8 @@
 ---
 sidebar_position: 0.9
 title: 目录
+slug: .
 ---
-
-
 
 
 

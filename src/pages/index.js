@@ -4,16 +4,16 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import logo from '@site/static/img/head.png'
+import logo from '@site/static/img/leaves-g75b01164b_6401.jpg'
 import styles from './index.module.css';
-//import { css } from '@emotion/css'
+//import { css } from '@emotion/css' leaves-g75b01164b_640.jpg
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-	    <img src={'https://qiniu.oulh.ml/siteimage/a042e4e573c02fb51bd6df46edfb79ce.png'} style={{width: 280, borderRadius: '50%'}} /> 
+	    <img src={logo} /*style={{width: 280, borderRadius: '50%'}}*/ />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -32,7 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`欢迎！ ${siteConfig.title}`}
+      // title={`首页${siteConfig.title}`}
+	  title={`首页`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
