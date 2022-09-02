@@ -67,7 +67,7 @@ const config = {
       //  公开 API 密钥：提交它没有危险
       apiKey: '9881ca3631c9d611a6368974d3f27993',
 
-      indexName: 'oulh_tmp',
+      indexName: 'oulh',
 
       // 可选：见下文
       contextualSearch: true,
