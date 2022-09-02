@@ -1,7 +1,7 @@
 ---
 sidebar_position: 0.9
 title: 目录
-slug: .
+slug: tree
 ---
 
 
@@ -11,8 +11,8 @@ slug: .
 |   +---python
 |   \---shell
 +---docker
-|   +---develop
-|   \---others
+|   +---其他
+|   \---进阶
 +---linux
 |   +---aliyun
 |   \---basics

@@ -76,7 +76,7 @@ const config = {
 		// 用"."表示根目录docs
 		  {
             type: 'doc',
-            docId: 'itnotes/.',
+            docId: 'itnotes/tree',
             position: 'left',
             label: '笔记',
           },
