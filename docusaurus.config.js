@@ -200,7 +200,7 @@ const config = {
 		&ensp;部署于 <a href="https://www.netlify.com" target="_blank" >Netlify</a> 
 		和 <a href="https://vercel.com/" target="_blank" >Vercel</a>
 
-		<br><small>纸上得来终觉浅，绝知此事要躬行。</small>
+		<br><small>人不知，而不愠。</small>
 		`,
       },
       prism: {
