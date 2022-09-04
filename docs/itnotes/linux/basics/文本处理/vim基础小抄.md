@@ -1,5 +1,6 @@
 ---
-title: vim基础小抄
+title: vim基础
+sidebar_position: 6
 ---
 
 vim的官方网站：https://www.vim.org

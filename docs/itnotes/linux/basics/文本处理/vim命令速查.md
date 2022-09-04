@@ -1,5 +1,6 @@
 ---
 title: vim命令速查
+sidebar_position: 7
 ---
 
 vim的官方网站：https://www.vim.org

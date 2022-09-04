@@ -1,5 +1,6 @@
 ---
 title: 创建一个允许sudo使用root命令的用户
+sidebar_position: 2
 ---
 
 ## 新建用户

@@ -1,5 +1,6 @@
 ---
 title: Linux软件包管理
+sidebar_position: 2
 ---
 
 ## Debian系apt、dpkg

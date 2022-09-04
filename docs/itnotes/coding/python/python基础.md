@@ -1,5 +1,6 @@
 ---
 title: python基础
+sidebar_position: 2
 ---
 
 

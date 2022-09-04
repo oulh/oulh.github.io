@@ -1,5 +1,6 @@
 ---
 title: Shell变量
+sidebar_position: 2
 ---
 
 

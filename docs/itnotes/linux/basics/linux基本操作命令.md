@@ -1,6 +1,6 @@
 ---
 title: 简易命令
-
+sidebar_position: 1
 ---
 > 参考书本：《快乐的 Linux 命令行》
 > 中英双译

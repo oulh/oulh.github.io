@@ -1,5 +1,6 @@
 ---
-title: shell属组
+title: shell数组
+sidebar_position: 6
 ---
 
 

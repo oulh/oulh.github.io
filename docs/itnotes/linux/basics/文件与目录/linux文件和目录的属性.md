@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 title: linux文件和目录属性
 ---
 

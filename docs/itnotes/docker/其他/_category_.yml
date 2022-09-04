@@ -1,5 +1,5 @@
-position: 1.2 # 支持浮点数序号
-label: '其他'
+position: 3 # 支持浮点数序号
+label: '杂烩记录'
 collapsible: true # 让类别可折叠
 collapsed: true # true: 默认折叠
 link:

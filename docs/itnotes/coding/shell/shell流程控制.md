@@ -1,5 +1,6 @@
 ---
 title: shell流程控制
+sidebar_position: 7
 ---
 
 

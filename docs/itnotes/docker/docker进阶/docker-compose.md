@@ -1,22 +1,25 @@
 ---
 title: Docker Compose
+sidebar_position: 3
 ---
 
-学习文档：
+相关文档：
+
+
 
 > 官网文档
 >
-> <small>compose：[Get started with Docker Compose ](https://docs.docker.com/compose/gettingstarted/)</small>
+> compose：[Get started with Docker Compose ](https://docs.docker.com/compose/gettingstarted/)
 >
-> <small>compose文档撰写：[Compose file reference](https://docs.docker.com/compose/compose-file/)</small>
+> compose文档撰写：[Compose file reference](https://docs.docker.com/compose/compose-file/)
 >
-> <small>docker compose命令：[full list of Compose commands](https://docs.docker.com/engine/reference/commandline/compose/)</small>
+> docker compose命令：[full list of Compose commands](https://docs.docker.com/engine/reference/commandline/compose/)
 >
 > 其他
 >
-> <small>[Docker Compose | 菜鸟教程 (runoob.com)](https://m.runoob.com/docker/docker-compose.html)</small>
+> [Docker Compose | 菜鸟教程 (runoob.com)](https://m.runoob.com/docker/docker-compose.html)
 >
-> <small>[Docker Compose | coonote](https://www.coonote.com/docker/docker-compose-project.html)（包含Compose命令说明和yaml文件配置选项）</small>
+> [Docker Compose | coonote](https://www.coonote.com/docker/docker-compose-project.html)（包含Compose命令说明和yaml文件配置选项）
 
 ## 概述
 

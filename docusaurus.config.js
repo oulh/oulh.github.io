@@ -42,7 +42,7 @@ const config = {
             'https://github.com/oulh/oulh.github.io/tree/main/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -64,7 +64,7 @@ const config = {
       // Algolia 提供的应用 ID
       appId: 'RCZTB3YFR0',
       //  公开 API 密钥：提交它没有危险
-      apiKey: 'af63446b8a0e08122332eb8085a05595',
+      apiKey: '9881ca3631c9d611a6368974d3f27993',
       indexName: 'oulh',
     },
 	  
@@ -90,13 +90,13 @@ const config = {
             label: '笔记',
           },
           {to: '/blog', label: '博客', position: 'left'},
-		  
+		  /*
 		  {
             type: 'doc',
             docId: 'others/baduanjin',
             position: 'right',
             label: '其他',
-          },
+          },*/
 		  // 下拉菜单
           {
             type: 'dropdown',

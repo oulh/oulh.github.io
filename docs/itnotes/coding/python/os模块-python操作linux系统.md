@@ -1,5 +1,6 @@
 ---
 title: os模块-python操作linux系统
+sidebar_position: 9
 ---
 
 ## os模块常用属性和方法

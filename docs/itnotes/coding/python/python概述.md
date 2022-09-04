@@ -1,5 +1,6 @@
 ---
 title: python概述
+sidebar_position: 1
 ---
 
 ## python概述

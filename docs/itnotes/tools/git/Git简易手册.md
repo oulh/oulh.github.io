@@ -1,5 +1,6 @@
 ---
 title: Git简易手册
+sidebar_position: 2
 ---
 
 

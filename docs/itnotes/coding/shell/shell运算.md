@@ -1,5 +1,6 @@
 ---
 title: Shell运算
+sidebar_position: 5
 ---
 
 

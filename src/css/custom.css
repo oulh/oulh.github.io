@@ -77,7 +77,7 @@
 }
 
 .navbar__logo img {
-	content: url('@site/static/img/head-xiamu-100.png');
+	content: url('@site/static/img/head_xiamu_100.png');
 	height: 100%;
 	max-width: 100%;
 	border-Radius: 50%;

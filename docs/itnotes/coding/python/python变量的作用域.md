@@ -1,6 +1,7 @@
 ---
 
 title: python变量的作用域
+sidebar_position: 5
 ---
 
 ## 命名空间

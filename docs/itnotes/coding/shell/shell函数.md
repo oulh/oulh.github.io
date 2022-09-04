@@ -1,8 +1,7 @@
 ---
 title: shell函数
+sidebar_position: 8
 ---
-
-
 
 ### 函数介绍
 
