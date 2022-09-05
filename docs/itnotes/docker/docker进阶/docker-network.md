@@ -3,8 +3,6 @@ title: docker网络
 sidebar_position: 2 
 ---
 
-容器间的互联、通信以及端口映射。
-
 
 
 docker network 可使容器间互相通信。
@@ -39,10 +37,6 @@ PING jenkins (172.18.0.3): 56 data bytes
 round-trip min/avg/max = 0.078/0.082/0.086 ms
 ```
 
-
-
-
-
 ## docker network 常用命令
 
 ```shell
@@ -57,7 +51,7 @@ $ docker network rm xxx
 
 ## docker network 模式
 
-docker 默认自带了3个网络，分别是 bridge、host、null 模式
+docker 默认自带了3个网络，名称是bridge、host、none，分别是 bridge、host、null 模式
 
 ```shell
 [leo@CentOS7 env-arg]$docker network ls
@@ -67,16 +61,19 @@ bab48e02a0d5        host                host                local
 1ae9b70cf00c        none                null                local
 ```
 
+新建的容器如果不指定网络，将默认是bridge(Name)。`docker inspect 容器 ` 会有记录
 
+- 桥接模式：`bridge`
 
-- 桥接模式：bridge
+  从宿主机虚拟出一个网卡，在宿主机内用 `ip addr` 或 `ifconfig` 可查看到，标识符为`docker 0` 的就是对应 bridge(Name) 这个网络的。每新增一个bridge型网络，就多一个虚拟网卡。
 
-  从宿主机虚拟出一个网卡
+- 主机模式：`host`
 
-- 主机模式：host
+  直接使用宿主机网卡（`eth0` 或其他），共用真实的ip和端口。
 
-  和宿主机共用真实的ip和端口
+- 禁用网络：`null`
 
-- 禁用网络：null
+  该网络下的容器只有127.0.0.1本地回环网络。
 
-  该网络下的容器只有127.0.0.1本地回环网络
+另外还有一个`container`模式，可以使新容器和现有容器共享一个网络。容器的文件系统还是独立的。
+
