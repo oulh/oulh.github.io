@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OU.LH',
-  tagline: '长风破浪会有时，直挂云帆济沧海。',
+  tagline: 'Just 一些笔记。',
   url: 'https://www.oulh.ml',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -87,9 +87,9 @@ const config = {
             type: 'doc',
             docId: 'itnotes/tree',
             position: 'left',
-            label: '笔记',
+            label: '正文',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+         // {to: '/blog', label: '博客', position: 'left'},
 		  /*
 		  {
             type: 'doc',
@@ -98,7 +98,7 @@ const config = {
             label: '其他',
           },*/
 		  // 下拉菜单
-          {
+         /* {
             type: 'dropdown',
             position: 'right',
             label: '网址导航',
@@ -112,7 +112,7 @@ const config = {
                 label: '实用资源',			
 			  },
 			]
-          },
+          },*/
 		  /*
           {
             href: 'https://github.com/facebook/docusaurus',

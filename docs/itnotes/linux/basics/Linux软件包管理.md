@@ -110,7 +110,7 @@ $ yum history
 9.显示已启用的yum存储库的列表：
 $ yum repolist
 10.找出哪个yum包提供了一个特定的文件（例如：/usr/bin/nc)）：
-$ yum whatprovides "*bin/nc"
+$ yum provides "*bin/nc"
 11.清除yum缓存：
 $ yum clean all
 ```
